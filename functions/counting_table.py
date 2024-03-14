@@ -19,5 +19,5 @@ def adv_counting_table(list1):
     for k in list1:
             tab[k - min_list1] +=1
 
-    return list1
+    return tab
 
