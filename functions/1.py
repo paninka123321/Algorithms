@@ -90,7 +90,7 @@ tab=[0]*n
 for i in range(0,m):
     x=int(input("Podaj wyraz listy"))
     lista.append(x)
-    if x in range(0,n):
+    if x in range(1,n+1):
         tab[x-1]=tab[x-1]+1
     elif x==n+1:
         for j in range(0,n):
