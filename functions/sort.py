@@ -42,12 +42,12 @@ def counting_sort(list1):
     return sorted_list
 
 
-## with use of import 
-# import counting_table  #why it doesnt work?!
+# # with use of import 
+# from functions.counting_table import adv_counting_table #why it doesnt work?!
 
 # def counting_sort_optimizated(list1):
     
-#     tab = counting_table.adv_counting_table(list1)
+#     tab = adv_counting_table(list1)
     
 #     first_el = min(list1)
 #     for i in tab:
