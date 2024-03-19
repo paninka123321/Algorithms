@@ -8,11 +8,10 @@ def adv_counting_table(list1):
 
     return tab
 
-a=[6,5,7,5,8,13,4,5,7,2,4,0,0]
+a=[]
 def sort_by_count(a):
     d=adv_counting_table(a)
     print(adv_counting_table(a))
-
     e=0
     c = [0] * len(a)
     for j in range(0,len(d)):
